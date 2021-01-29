@@ -9,26 +9,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: 'Saad Pasta',
-  title: "Hi all, I'm Saad",
+  username: 'Teja Srivastasa',
+  title: "Hi all, I'm Teja",
   subTitle: emoji(
-    'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com/file/d/1t4ihjDometkSbO41z2tk9kZLg_ppyqaF/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: 'https://github.com/saadpasta',
-  linkedin: 'https://www.linkedin.com/in/saadpasta/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  github: 'https://github.com/tejasrivastav',
+  linkedin: 'https://www.linkedin.com/in/tejasrivastasa/',
+  gmail: 'tejasrivastav@gmail.com',
+  gitlab: 'https://github.com/tejasrivastav',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -40,11 +37,11 @@ const skillsSection = {
   subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Develop highly interactive Front end / User Interfaces for your web applications'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Design and engineer scalable applications'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Integration of third party services such as Firebase/ AWS'
     ),
   ],
 
@@ -77,10 +74,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-node',
     },
     {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
-    },
-    {
       skillName: 'npm',
       fontAwesomeClassname: 'fab fa-npm',
     },
@@ -93,8 +86,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: 'fab fa-aws',
     },
     {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
+      skillName: 'angular',
+      fontAwesomeClassname: 'fab fa-angular',
     },
     {
       skillName: 'python',
@@ -111,7 +104,7 @@ https://fontawesome.com/icons?d=gallery */
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: 'Harvard University',
@@ -142,16 +135,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+      Stack: 'Frontend', //Insert stack or technology you have experience in
       progressPercentage: '90%', //Insert relative proficiency in percentage
     },
     {
       Stack: 'Backend',
-      progressPercentage: '70%',
+      progressPercentage: '50%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '70%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -164,8 +157,8 @@ const workExperiences = {
   experience: [
     {
       role: 'Software Engineer',
-      company: 'Facebook',
-      companylogo: require('./assets/images/facebookLogo.png'),
+      company: 'Datarpm',
+      companylogo: require('./assets/images/DataRPM-logo-300x300.jpeg'),
       date: 'June 2018 – Present',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -175,17 +168,17 @@ const workExperiences = {
       ],
     },
     {
-      role: 'Front-End Developer',
-      company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
+      role: 'Software Engineer',
+      company: 'Shortlist',
+      companylogo: require('./assets/images/shortlist_primary.png'),
       date: 'May 2017 – May 2018',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
     },
     {
-      role: 'Software Engineer Intern',
-      company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
+      role: 'Sr Software Engineer',
+      company: 'Servicenow',
+      companylogo: require('./assets/images/logo-servicenow-sq-green.jpg'),
       date: 'Jan 2015 – Sep 2015',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -200,22 +193,22 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: 'Big Projects',
-  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  subtitle: 'STARTUPS THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: require('./assets/images/chezuba.png'),
+      link: 'https://chezuba.net/',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: require('./assets/images/evolve-logo.png'),
+      link: 'https://www.evolveinc.in/',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -280,7 +273,7 @@ const achievementSection = {
       ],
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -293,17 +286,11 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae',
-      title: 'Win a Google Assistant Tshirt and $200 in Google Cloud Credits',
+        'https://dzone.com/articles/pushing-jupyter-notebooks-to-production',
+      title: 'Pushing Jupyter Notebooks to Production',
       description:
-        'Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?',
-    },
-    {
-      url: 'https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e',
-      title: 'Why REACT is The Best?',
-      description:
-        'React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.',
-    },
+        'I will explain the method so that other engineers and data scientists can learn from how I approached this process of delivering a data science product.',
+    }
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -324,7 +311,7 @@ const talkSection = {
       event_url: 'https://www.facebook.com/events/2339906106275053/',
     },
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -337,22 +324,22 @@ const podcastSection = {
   podcast: [
     'https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo',
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '+91-8801604329',
+  emailAddress: 'tejasrivastav@gmail.com',
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: 'twitter', //Replace "twitter" with your twitter username without @
-  display: true, // Set true to display this section, defaults to false
+  display: false, // Set true to display this section, defaults to false
 };
 
 export {
